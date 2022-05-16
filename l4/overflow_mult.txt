@@ -1,0 +1,15 @@
+### moltiplicazione su 32 bit
+    mul $t2, $t1, $t0
+### non posso accorgermi se c'è stato overflow
+
+### moltiplicazione su 64 bit
+    mulou $t2, $t1, $t0
+### eccezione se si va in overflow
+
+### moltiplicazione su 64 bit e verifica successiva
+    multu $t1, $t0
+### risultato in $hi $lo
+### salvo il risultato in 2 registri
+    mfhi $t2
+    bne $t2, $0, overflow
+    mflo $t2
