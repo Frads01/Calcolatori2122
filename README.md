@@ -1,4 +1,4 @@
-# Laboratori Calcolatori Elettronici 2021/22
+# Calcolatori Elettronici - Laboratori 2021/22
 
 |          Corso          |              Professori             | Anno Accademico |
 |:-----------------------:|:-----------------------------------:|:---------------:|
